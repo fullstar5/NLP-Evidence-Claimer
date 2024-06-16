@@ -1,4 +1,4 @@
-# COMP90042 Project Description
+# Project Description
 
 This assignment can be done individually or in teams of two or three or four. We strongly encourage healthy collaboration. See the [University of Melbourne Working in Groups Guide](https://students.unimelb.edu.au/academic-skills/resources/communicating-in-class/communicating-with-peers/working-in-groups). 
 If your team member does not contribute, please contact the lecturer ([Dr. Caren Han](mailto:caren.han@unimelb.edu.au?subject=[COMP90042]%20Project%20Group)) and explain the situation (e.g. by describing the contributions of each collaborator in your team). We strongly recommend to start working early so that you will have ample time to discover stumbling blocks and ask questions.
@@ -278,9 +278,7 @@ Submissions which have no group name will not be marked.
 
 To submit your test output, select the “Participate” tab, click the “Ongoing evaluation” button, and then click “Submit”. This will allow you to select a file, which is uploaded to the Codalab server, which will evaluate your results and add an entry to the leaderboard. Your file should be a zip archive containing a single file named test-claims-baseline.json. The JSON file should produce the claim labels and evidence passages for all the claims in test-claims-unlabelled.json. The format of the JSON file should follow the format of the provided baseline system (i.e. dev-claims-baseline.json). The system will produce an error message if the filename is different, as it cannot process your file.
 
-The results are shown on the leaderboard under the “Results” tab, under “Ongoing Evaluation”. The competition ends at on 24th May, after which submissions will no longer be accepted (extensions can not be granted to this deadline). At this point, the “Final Evaluation” results will be revealed. These two sets of results reflect evaluation on different subsets of the test data. The best score on the ongoing evaluation may not be the best on the final evaluation, and we will be using the final evaluation scores in the assessment. The final result of your best submission(s) can now be discussed in the report, which is due at 11.59PM, 26 May 2024. Note: if your team did not participate, then you won't have any test results to report, so focus on reporting the development results.
 
-Note that Codalab allows only 3 submissions per team per day, so please only upload your results when you have made a meaningful change to your system. Please do not over-tune your system based on the ongoing test set, as you are very likely to see a performance drop when it’s evaluated on the final test set, since it probably has overfitted on the ongoing test set (we see this every year in COMP90042 projects, where systems that have a large number of submissions during ongoing evaluation see a large drop in ranking once the final evaluation results are released). Note that Codalab is a little slow to respond at times, so you will need to give it a minute or so to process your file and update the result table.
 
 
 
